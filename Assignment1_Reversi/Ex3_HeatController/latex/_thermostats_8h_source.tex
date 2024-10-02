@@ -1,0 +1,43 @@
+\doxysection{Thermostats.\+h}
+\hypertarget{_thermostats_8h_source}{}\label{_thermostats_8h_source}\index{myCode/Thermostats.h@{myCode/Thermostats.h}}
+\mbox{\hyperlink{_thermostats_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ Thermostats.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Nov\ 15,\ 2023}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ tiena}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ THERMOSTATS\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ THERMOSTATS\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_temperature_sensor_8h}{TemperatureSensor.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_display_8h}{Display.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_heat_controller_8h}{HeatController.h}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_button_8h}{Button.h}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_user_interface_8h}{UserInterface.h}}"{}}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_bluetooth_8h}{Bluetooth.h}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_schedule_task_8h}{ScheduleTask.h}}"{}}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_thermostats}{Thermostats}}}
+\DoxyCodeLine{00030\ \{}
+\DoxyCodeLine{00031\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{class_temperature_sensor}{TemperatureSensor}}\ \mbox{\hyperlink{class_thermostats_a47ec7efd0c4d9365bd58385ca2ed4a1c}{tempSensor}};\ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_schedule_task}{ScheduleTask}}\ \mbox{\hyperlink{class_thermostats_a9ee87213d43230aba4ed9fca81091742}{scheduleTask}};\ \ }
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_bluetooth}{Bluetooth}}\ \mbox{\hyperlink{class_thermostats_aecb8c3723d3cc7371260ddf98aaf46ed}{bluetooth}};\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_heat_controller}{HeatController}}\ \mbox{\hyperlink{class_thermostats_a3914f716c96e9ef6765bec81992339c1}{heatController}};\ }
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{class_user_interface}{UserInterface}}\ \mbox{\hyperlink{class_thermostats_a96869d84e15136cf75a688d6d1ec9230}{userInterface}};\ \ \ }
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{comment}{//\ Default\ constructor}}
+\DoxyCodeLine{00045\ \ \ \ \ \mbox{\hyperlink{class_thermostats_a39a1caa69471bdafaacf3a346e5887aa}{Thermostats}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_thermostats_a0454497bfa317bf54bd747abd7d71680}{\string~Thermostats}}();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_thermostats_a53a44e6ff5182cab8879a90da5f0f078}{run}}();}
+\DoxyCodeLine{00060\ \};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ THERMOSTATS\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

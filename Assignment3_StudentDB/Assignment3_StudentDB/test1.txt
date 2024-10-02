@@ -1,0 +1,9 @@
+3
+100000;Olsen;Peter;24.11.1998;7158 Spurvevej;21361;Juelsminde;
+100001;Stein;Josephine;11.12.1972;28 random;64521;Darmstadt;
+100002;Jenipher;Josephine;11.12.1972;28 random;64521;Darmstadt;
+2
+B;1;APT;Embedded;10;30.9.2024;30.12.2024;8:30;9:30
+W;2;ASDT;Automation;10;3;8:30;9:30
+1
+100001;1;Summer;0

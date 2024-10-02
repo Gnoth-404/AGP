@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['setopponentgridstate_0',['setOpponentGridState',['../class_console_view.html#a4b623b602d9e16a364e5771eee1d40f5',1,'ConsoleView']]],
+  ['setowngridstate_1',['setOwnGridState',['../class_console_view.html#a14c3cc252b1c5134c4d7d892b6217d00',1,'ConsoleView']]],
+  ['setshotmap_2',['setShotMap',['../class_console_view.html#af4ee476c84f519b88d47ee669363ac26',1,'ConsoleView']]],
+  ['ship_3',['ship',['../class_ship.html',1,'Ship'],['../class_ship.html#a2601bfc0fec82eec76afef657b0ba035',1,'Ship::Ship()']]],
+  ['ship_2ecpp_4',['Ship.cpp',['../_ship_8cpp.html',1,'']]],
+  ['ship_2eh_5',['Ship.h',['../_ship_8h.html',1,'']]],
+  ['shipmap_6',['shipMap',['../class_own_grid.html#a7e38a5d99bb2b9f4d49bf8f1501ffbc9',1,'OwnGrid']]],
+  ['ships_7',['ships',['../class_own_grid.html#a2b8c3418f163fc6b14777e546a824ff7',1,'OwnGrid']]],
+  ['shot_8',['shot',['../class_shot.html',1,'Shot'],['../class_shot.html#a9c85916876bda299a088bde1b5483bb9',1,'Shot::Shot()']]],
+  ['shot_2ecpp_9',['Shot.cpp',['../_shot_8cpp.html',1,'']]],
+  ['shot_2eh_10',['Shot.h',['../_shot_8h.html',1,'']]],
+  ['shotat_11',['shotAt',['../class_own_grid.html#a24d8966907cc269abab69569842578a3',1,'OwnGrid']]],
+  ['shotresult_12',['shotResult',['../class_opponent_grid.html#ab3c4c16ad0f41f84c78d495b31678e76',1,'OpponentGrid']]],
+  ['shotresults_13',['shotResults',['../class_own_grid.html#a6f42450ab45d52f80aed3681895837db',1,'OwnGrid']]],
+  ['shots_14',['shots',['../class_opponent_grid.html#a890c18280bab54165e4490b240182b1d',1,'OpponentGrid']]],
+  ['shunkenships_15',['shunkenships',['../class_opponent_grid.html#a6a6ea28961ba06c91eab714b714fc682',1,'OpponentGrid']]],
+  ['stern_16',['stern',['../class_ship.html#adabece62035d169d41483d40255b30a2',1,'Ship']]],
+  ['sunken_17',['SUNKEN',['../class_shot.html#a7b3c004dc3d60037797c74ce9d513572ab16a58efaa329423a263775e79735fc6',1,'Shot']]]
+];

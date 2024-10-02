@@ -1,0 +1,164 @@
+\doxysection{Temperature\+Sensor Class Reference}
+\hypertarget{class_temperature_sensor}{}\label{class_temperature_sensor}\index{TemperatureSensor@{TemperatureSensor}}
+
+
+Represents a temperature sensor.  
+
+
+
+
+{\ttfamily \#include $<$Temperature\+Sensor.\+h$>$}
+
+
+
+Collaboration diagram for Temperature\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=194pt]{class_temperature_sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_temperature_sensor_a2f8ba8784c8e8aebd3f88c402fb8319b}{Temperature\+Sensor}} ()
+\item 
+\mbox{\hyperlink{class_temperature_sensor_a0eefd1237cfecb6ad995c007fcd17f52}{Temperature\+Sensor}} (int \&pin, float \&temp)
+\begin{DoxyCompactList}\small\item\em Construct a new Temperature Sensor object. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_temperature_sensor_a13158e376619b9fcd2bd2e49d45d6e6b}{get\+Temperture}} () const
+\begin{DoxyCompactList}\small\item\em Get the current temperature. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_temperature_sensor_a3eaa2a82be4027919b3ab8b4b3422006}{convert\+To\+Celsius}} (float temp) const
+\begin{DoxyCompactList}\small\item\em Convert the temperature from degrees Fahrenheit to degrees Celsius. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_temperature_sensor_a0ce9a1e97a7e4f9d7721feedba47f3c1}{convert\+To\+Fahrenheit}} (float temp) const
+\begin{DoxyCompactList}\small\item\em Convert the temperature from degrees Celsius to degrees Fahrenheit. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_temperature_sensor_a4ee390badd77fa6c7ce46dc788f3d5c6}{\texorpdfstring{$\sim$}{\string~}\+Temperature\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Temperature Sensor object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_temperature_sensor_a9de919336d0a1c5ca85eea424019a93b}{sensor\+Pin}}
+\begin{DoxyCompactList}\small\item\em The pin number of the sensor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_temperature_sensor_a0fd06ad922e1c06706d12591037f6199}{datasheet\+Temp}}
+\begin{DoxyCompactList}\small\item\em The properties of the sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a temperature sensor. 
+
+This class models a temperature sensor and provides methods for initializing the sensor, reading temperature data, and accessing the current temperature. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_temperature_sensor_a2f8ba8784c8e8aebd3f88c402fb8319b}\label{class_temperature_sensor_a2f8ba8784c8e8aebd3f88c402fb8319b} 
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{TemperatureSensor()}{TemperatureSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Temperature\+Sensor\+::\+Temperature\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_temperature_sensor_a0eefd1237cfecb6ad995c007fcd17f52}\label{class_temperature_sensor_a0eefd1237cfecb6ad995c007fcd17f52} 
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\index{TemperatureSensor@{TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{TemperatureSensor()}{TemperatureSensor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Temperature\+Sensor\+::\+Temperature\+Sensor (\begin{DoxyParamCaption}\item[{int \&}]{pin,  }\item[{float \&}]{temp }\end{DoxyParamCaption})}
+
+
+
+Construct a new Temperature Sensor object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & The pin number of the sensor. \\
+\hline
+{\em temp} & The properties of the sensor. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_temperature_sensor_a4ee390badd77fa6c7ce46dc788f3d5c6}\label{class_temperature_sensor_a4ee390badd77fa6c7ce46dc788f3d5c6} 
+\index{TemperatureSensor@{TemperatureSensor}!````~TemperatureSensor@{\texorpdfstring{$\sim$}{\string~}TemperatureSensor}}
+\index{````~TemperatureSensor@{\texorpdfstring{$\sim$}{\string~}TemperatureSensor}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}TemperatureSensor()}{\string~TemperatureSensor()}}
+{\footnotesize\ttfamily Temperature\+Sensor\+::\texorpdfstring{$\sim$}{\string~}\+Temperature\+Sensor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the Temperature Sensor object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_temperature_sensor_a3eaa2a82be4027919b3ab8b4b3422006}\label{class_temperature_sensor_a3eaa2a82be4027919b3ab8b4b3422006} 
+\index{TemperatureSensor@{TemperatureSensor}!convertToCelsius@{convertToCelsius}}
+\index{convertToCelsius@{convertToCelsius}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{convertToCelsius()}{convertToCelsius()}}
+{\footnotesize\ttfamily float Temperature\+Sensor\+::convert\+To\+Celsius (\begin{DoxyParamCaption}\item[{float}]{temp }\end{DoxyParamCaption}) const}
+
+
+
+Convert the temperature from degrees Fahrenheit to degrees Celsius. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp} & The temperature in degrees Fahrenheit. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float The temperature in degrees Celsius. 
+\end{DoxyReturn}
+\Hypertarget{class_temperature_sensor_a0ce9a1e97a7e4f9d7721feedba47f3c1}\label{class_temperature_sensor_a0ce9a1e97a7e4f9d7721feedba47f3c1} 
+\index{TemperatureSensor@{TemperatureSensor}!convertToFahrenheit@{convertToFahrenheit}}
+\index{convertToFahrenheit@{convertToFahrenheit}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{convertToFahrenheit()}{convertToFahrenheit()}}
+{\footnotesize\ttfamily float Temperature\+Sensor\+::convert\+To\+Fahrenheit (\begin{DoxyParamCaption}\item[{float}]{temp }\end{DoxyParamCaption}) const}
+
+
+
+Convert the temperature from degrees Celsius to degrees Fahrenheit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em temp} & The temperature in degrees Celsius. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float The temperature in degrees Fahrenheit. 
+\end{DoxyReturn}
+\Hypertarget{class_temperature_sensor_a13158e376619b9fcd2bd2e49d45d6e6b}\label{class_temperature_sensor_a13158e376619b9fcd2bd2e49d45d6e6b} 
+\index{TemperatureSensor@{TemperatureSensor}!getTemperture@{getTemperture}}
+\index{getTemperture@{getTemperture}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{getTemperture()}{getTemperture()}}
+{\footnotesize\ttfamily float Temperature\+Sensor\+::get\+Temperture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the current temperature. 
+
+\begin{DoxyReturn}{Returns}
+float The current temperature in degrees Celsius. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_temperature_sensor_a0fd06ad922e1c06706d12591037f6199}\label{class_temperature_sensor_a0fd06ad922e1c06706d12591037f6199} 
+\index{TemperatureSensor@{TemperatureSensor}!datasheetTemp@{datasheetTemp}}
+\index{datasheetTemp@{datasheetTemp}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{datasheetTemp}{datasheetTemp}}
+{\footnotesize\ttfamily float Temperature\+Sensor\+::datasheet\+Temp\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The properties of the sensor. 
+
+\Hypertarget{class_temperature_sensor_a9de919336d0a1c5ca85eea424019a93b}\label{class_temperature_sensor_a9de919336d0a1c5ca85eea424019a93b} 
+\index{TemperatureSensor@{TemperatureSensor}!sensorPin@{sensorPin}}
+\index{sensorPin@{sensorPin}!TemperatureSensor@{TemperatureSensor}}
+\doxysubsubsection{\texorpdfstring{sensorPin}{sensorPin}}
+{\footnotesize\ttfamily int Temperature\+Sensor\+::sensor\+Pin\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The pin number of the sensor. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_temperature_sensor_8h}{Temperature\+Sensor.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_temperature_sensor_8cpp}{Temperature\+Sensor.\+cpp}}\end{DoxyCompactItemize}

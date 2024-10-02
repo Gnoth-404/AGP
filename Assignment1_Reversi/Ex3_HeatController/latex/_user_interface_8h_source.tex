@@ -1,0 +1,35 @@
+\doxysection{User\+Interface.\+h}
+\hypertarget{_user_interface_8h_source}{}\label{_user_interface_8h_source}\index{myCode/UserInterface.h@{myCode/UserInterface.h}}
+\mbox{\hyperlink{_user_interface_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ UserInterface.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Nov\ 15,\ 2023}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ tiena}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ USERINTERFACE\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ USERINTERFACE\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_button_8h}{Button.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_display_8h}{Display.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_user_interface}{UserInterface}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ \mbox{\hyperlink{class_user_interface_a0d94d4acc3323b619182abe40a6f51e4}{increaseTempButton}};}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ \mbox{\hyperlink{class_user_interface_a391a906648e1a8f0aed14483a878ebc3}{decreaseTempButton}};}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ \mbox{\hyperlink{class_user_interface_a95398f4420e85f386c376ca3de96c446}{confirmButton}};}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_display}{Display}}\ \mbox{\hyperlink{class_user_interface_a3c1477605887cb21bec713bb349114da}{display}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_user_interface_ae6fb70370701b3bd6120e923df9705b0}{UserInterface}}();}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_user_interface_a7c5c70ab60946b99a5424dc6383feeb1}{UserInterface}}(\mbox{\hyperlink{class_button}{Button}}\&\ incButton,\ \mbox{\hyperlink{class_button}{Button}}\&\ decButton,\ \mbox{\hyperlink{class_button}{Button}}\&\ confButton,\ \mbox{\hyperlink{class_display}{Display}}\&\ disp);}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_interface_a63e4897f90134b8dcf7aad9f43e315f4}{handleButtonPress}}();\ \textcolor{comment}{//\ Handles\ the\ button\ press\ logic}}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_user_interface_a80d64a2e49f81f3204ecb0590605667f}{updateDisplay}}();\ \textcolor{comment}{//\ Update\ the\ display\ based\ on\ interactions}}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_user_interface_ae588b2ff1711a016dd4c6fc5002c0841}{\string~UserInterface}}();}
+\DoxyCodeLine{00027\ \};}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ USERINTERFACE\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

@@ -1,0 +1,5 @@
+[Bath]
+90;Temperature:22.000000°C
+[Kitchen]
+480;Temperature:-3.000000°C
+570;Humidity:80.000000%

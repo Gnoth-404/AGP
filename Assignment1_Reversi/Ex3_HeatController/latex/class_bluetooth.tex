@@ -1,0 +1,142 @@
+\doxysection{Bluetooth Class Reference}
+\hypertarget{class_bluetooth}{}\label{class_bluetooth}\index{Bluetooth@{Bluetooth}}
+
+
+Manages \doxylink{class_bluetooth}{Bluetooth} communication for the thermostat.  
+
+
+
+
+{\ttfamily \#include $<$Bluetooth.\+h$>$}
+
+
+
+Collaboration diagram for Bluetooth\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_bluetooth__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bluetooth_adff22f9e5f2bd81b1fc5b8eeba71f68b}{Bluetooth}} ()
+\item 
+\mbox{\hyperlink{class_bluetooth_a05e52bab1d1993e6e060402eaed430e4}{Bluetooth}} (\mbox{\hyperlink{class_schedule_task}{Schedule\+Task}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545}{schedule}})
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{class_bluetooth}{Bluetooth}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bluetooth_aa1544a5f4cadcc689627a6c69031e583}{\texorpdfstring{$\sim$}{\string~}\+Bluetooth}} ()
+\item 
+void \mbox{\hyperlink{class_bluetooth_ab5bc43ac23379ec30e6a783b2535e67c}{init}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the \doxylink{class_bluetooth}{Bluetooth} module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_bluetooth_ae9ef102318b9a00c82fc43c23d638638}{handle\+Communication}} ()
+\begin{DoxyCompactList}\small\item\em Handles incoming \doxylink{class_bluetooth}{Bluetooth} communication and updates the Timer schedules as needed. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_bluetooth_ac99881a64a0eb55c5396c6a85673da99}{get\+Bluetooth\+State}} () const
+\begin{DoxyCompactList}\small\item\em Gets the current state of the \doxylink{class_bluetooth}{Bluetooth} connection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_bluetooth_a6480a785e3512b5e51ec15b257af0be6}{is\+Connected}}
+\begin{DoxyCompactList}\small\item\em Indicates the state of \doxylink{class_bluetooth}{Bluetooth} connection. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_schedule_task}{Schedule\+Task}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545}{schedule}}
+\begin{DoxyCompactList}\small\item\em Pointer for Task manipulation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages \doxylink{class_bluetooth}{Bluetooth} communication for the thermostat. 
+
+This class handles \doxylink{class_bluetooth}{Bluetooth} connectivity,enabling remote control 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_bluetooth_adff22f9e5f2bd81b1fc5b8eeba71f68b}\label{class_bluetooth_adff22f9e5f2bd81b1fc5b8eeba71f68b} 
+\index{Bluetooth@{Bluetooth}!Bluetooth@{Bluetooth}}
+\index{Bluetooth@{Bluetooth}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{Bluetooth()}{Bluetooth()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Bluetooth\+::\+Bluetooth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_bluetooth_a05e52bab1d1993e6e060402eaed430e4}\label{class_bluetooth_a05e52bab1d1993e6e060402eaed430e4} 
+\index{Bluetooth@{Bluetooth}!Bluetooth@{Bluetooth}}
+\index{Bluetooth@{Bluetooth}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{Bluetooth()}{Bluetooth()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Bluetooth\+::\+Bluetooth (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_schedule_task}{Schedule\+Task}} \texorpdfstring{$\ast$}{*}}]{schedule }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{class_bluetooth}{Bluetooth}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em schedule} & A pointer to a Schedule object for setting schedules via \doxylink{class_bluetooth}{Bluetooth}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_bluetooth_aa1544a5f4cadcc689627a6c69031e583}\label{class_bluetooth_aa1544a5f4cadcc689627a6c69031e583} 
+\index{Bluetooth@{Bluetooth}!````~Bluetooth@{\texorpdfstring{$\sim$}{\string~}Bluetooth}}
+\index{````~Bluetooth@{\texorpdfstring{$\sim$}{\string~}Bluetooth}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Bluetooth()}{\string~Bluetooth()}}
+{\footnotesize\ttfamily Bluetooth\+::\texorpdfstring{$\sim$}{\string~}\+Bluetooth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_bluetooth_ac99881a64a0eb55c5396c6a85673da99}\label{class_bluetooth_ac99881a64a0eb55c5396c6a85673da99} 
+\index{Bluetooth@{Bluetooth}!getBluetoothState@{getBluetoothState}}
+\index{getBluetoothState@{getBluetoothState}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{getBluetoothState()}{getBluetoothState()}}
+{\footnotesize\ttfamily bool Bluetooth\+::get\+Bluetooth\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the current state of the \doxylink{class_bluetooth}{Bluetooth} connection. 
+
+\begin{DoxyReturn}{Returns}
+True if connected, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_bluetooth_ae9ef102318b9a00c82fc43c23d638638}\label{class_bluetooth_ae9ef102318b9a00c82fc43c23d638638} 
+\index{Bluetooth@{Bluetooth}!handleCommunication@{handleCommunication}}
+\index{handleCommunication@{handleCommunication}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{handleCommunication()}{handleCommunication()}}
+{\footnotesize\ttfamily void Bluetooth\+::handle\+Communication (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Handles incoming \doxylink{class_bluetooth}{Bluetooth} communication and updates the Timer schedules as needed. 
+
+\Hypertarget{class_bluetooth_ab5bc43ac23379ec30e6a783b2535e67c}\label{class_bluetooth_ab5bc43ac23379ec30e6a783b2535e67c} 
+\index{Bluetooth@{Bluetooth}!init@{init}}
+\index{init@{init}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Bluetooth\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the \doxylink{class_bluetooth}{Bluetooth} module. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_bluetooth_a6480a785e3512b5e51ec15b257af0be6}\label{class_bluetooth_a6480a785e3512b5e51ec15b257af0be6} 
+\index{Bluetooth@{Bluetooth}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{isConnected}{isConnected}}
+{\footnotesize\ttfamily bool Bluetooth\+::is\+Connected\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indicates the state of \doxylink{class_bluetooth}{Bluetooth} connection. 
+
+\Hypertarget{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545}\label{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545} 
+\index{Bluetooth@{Bluetooth}!schedule@{schedule}}
+\index{schedule@{schedule}!Bluetooth@{Bluetooth}}
+\doxysubsubsection{\texorpdfstring{schedule}{schedule}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_schedule_task}{Schedule\+Task}}\texorpdfstring{$\ast$}{*} Bluetooth\+::schedule\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Pointer for Task manipulation. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_bluetooth_8h}{Bluetooth.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_bluetooth_8cpp}{Bluetooth.\+cpp}}\end{DoxyCompactItemize}

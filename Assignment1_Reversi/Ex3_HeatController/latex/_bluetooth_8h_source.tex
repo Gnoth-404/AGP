@@ -1,0 +1,36 @@
+\doxysection{Bluetooth.\+h}
+\hypertarget{_bluetooth_8h_source}{}\label{_bluetooth_8h_source}\index{myCode/Bluetooth.h@{myCode/Bluetooth.h}}
+\mbox{\hyperlink{_bluetooth_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ Bluetooth.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Nov\ 15,\ 2023}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ tiena}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ BLUETOOTH\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ BLUETOOTH\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_schedule_task_8h}{ScheduleTask.h}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_bluetooth}{Bluetooth}}\{}
+\DoxyCodeLine{00019\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_bluetooth_a6480a785e3512b5e51ec15b257af0be6}{isConnected}};\ }
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_schedule_task}{ScheduleTask}}*\ \mbox{\hyperlink{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545}{schedule}};\ \ \ \ \ }
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_bluetooth_adff22f9e5f2bd81b1fc5b8eeba71f68b}{Bluetooth}}();}
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{class_bluetooth_a05e52bab1d1993e6e060402eaed430e4}{Bluetooth}}(\mbox{\hyperlink{class_schedule_task}{ScheduleTask}}*\ \mbox{\hyperlink{class_bluetooth_a8d4f9231d0886b5058da5ec3496d8545}{schedule}});}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{class_bluetooth_aa1544a5f4cadcc689627a6c69031e583}{\string~Bluetooth}}();}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_bluetooth_ab5bc43ac23379ec30e6a783b2535e67c}{init}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_bluetooth_ae9ef102318b9a00c82fc43c23d638638}{handleCommunication}}();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_bluetooth_ac99881a64a0eb55c5396c6a85673da99}{getBluetoothState}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \};}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ BLUETOOTH\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

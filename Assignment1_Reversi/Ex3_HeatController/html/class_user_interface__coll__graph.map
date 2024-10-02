@@ -1,0 +1,7 @@
+<map id="UserInterface" name="UserInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="78,277,219,432"/>
+<area shape="rect" id="Node000002" href="$class_button.html" title="A class to represent and handle a button in Hardware API." alt="" coords="5,5,135,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,181,65,217,74,253,77,261,72,263,68,254,60,218,58,181"/>
+<area shape="rect" id="Node000003" href="$class_display.html" title="Class for managing the display interface." alt="" coords="175,16,279,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,171,201,254,198,263,193,261,195,253,215,170"/>
+</map>

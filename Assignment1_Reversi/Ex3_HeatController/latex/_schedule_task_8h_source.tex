@@ -1,0 +1,40 @@
+\doxysection{Schedule\+Task.\+h}
+\hypertarget{_schedule_task_8h_source}{}\label{_schedule_task_8h_source}\index{myCode/ScheduleTask.h@{myCode/ScheduleTask.h}}
+\mbox{\hyperlink{_schedule_task_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ Schedule.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Nov\ 15,\ 2023}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ tiena}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ ScheduleTask\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ ScheduleTask\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_schedule_task}{ScheduleTask}}\ \{}
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9}{hour}};\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8}{minute}};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c}{temperature}};\ }
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_schedule_task_a8be215de49d39285bb54596be21595af}{ScheduleTask}}();}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_schedule_task_a5ddab2b8a940c3ce63a0f9c55a473523}{ScheduleTask}}(\textcolor{keywordtype}{int}\ h,\ \textcolor{keywordtype}{int}\ m,\ \textcolor{keywordtype}{float}\ temp)\ :}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9}{hour}}(h),\ \mbox{\hyperlink{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8}{minute}}(m),\ \mbox{\hyperlink{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c}{temperature}}(temp)\{\}}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_schedule_task_acf99cda0198b42fb2540a853819755b2}{getTemperature}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c}{temperature}};\ \}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_schedule_task_a961e6f8d6a1c2c4f0da302e84b6552fe}{isScheduledTime}}(\textcolor{keywordtype}{int}\ h,\ \textcolor{keywordtype}{int}\ m)\textcolor{keyword}{\ const\ }\{}
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ (\mbox{\hyperlink{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9}{hour}}\ ==\ h\ \&\&\ \mbox{\hyperlink{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8}{minute}}\ ==\ m);}
+\DoxyCodeLine{00051\ \ \ \ \ \}}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{comment}{//\ Destructor}}
+\DoxyCodeLine{00054\ \ \ \ \ \mbox{\hyperlink{class_schedule_task_af2052670cd2f184b62f5cfe224ab80a7}{\string~ScheduleTask}}();}
+\DoxyCodeLine{00055\ \};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ ScheduleTask\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

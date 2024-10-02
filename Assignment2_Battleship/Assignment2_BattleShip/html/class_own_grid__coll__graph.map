@@ -1,0 +1,3 @@
+<map id="OwnGrid" name="OwnGrid">
+<area shape="rect" id="Node000001" title="Represents a player&#39;s own grid in a Battleship game." alt="" coords="5,5,125,352"/>
+</map>

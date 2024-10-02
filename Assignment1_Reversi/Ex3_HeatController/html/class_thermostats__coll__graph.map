@@ -1,0 +1,18 @@
+<map id="Thermostats" name="Thermostats">
+<area shape="rect" id="Node000001" title="The Thermostats class integrates various components like temperature sensors, display,..." alt="" coords="341,560,453,672"/>
+<area shape="rect" id="Node000002" href="$class_temperature_sensor.html" title="Represents a temperature sensor." alt="" coords="5,299,157,496"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,495,98,516,111,534,125,545,145,556,200,574,325,601,324,606,198,579,143,560,122,550,107,538,93,518,84,497"/>
+<area shape="rect" id="Node000003" href="$class_schedule_task.html" title="Represents a temperature control schedule." alt="" coords="200,5,331,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,203,206,271,194,346,193,385,196,423,205,460,220,495,240,524,267,549,297,569,327,585,325,590,294,574,264,553,236,527,215,497,200,461,191,424,187,385,188,346,200,270,221,202"/>
+<area shape="rect" id="Node000004" href="$class_bluetooth.html" title="Manages Bluetooth communication for the thermostat." alt="" coords="317,309,477,485"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="312,201,353,293,349,295,307,204"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="400,485,400,543,395,543,395,485"/>
+<area shape="rect" id="Node000005" href="$class_heat_controller.html" title="A class for controlling heating operations." alt="" coords="502,331,623,464"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="520,465,466,538,457,549,453,545,462,534,515,462"/>
+<area shape="rect" id="Node000006" href="$class_user_interface.html" title=" " alt="" coords="648,320,789,475"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="659,476,636,498,596,528,553,553,470,592,468,587,551,549,594,523,633,494,656,472"/>
+<area shape="rect" id="Node000007" href="$class_button.html" title="A class to represent and handle a button in Hardware API." alt="" coords="575,16,705,192"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="634,192,636,233,644,274,656,304,651,306,638,275,630,234,629,192"/>
+<area shape="rect" id="Node000008" href="$class_display.html" title="Class for managing the display interface." alt="" coords="745,27,849,181"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="790,182,771,275,761,305,756,304,765,274,785,181"/>
+</map>

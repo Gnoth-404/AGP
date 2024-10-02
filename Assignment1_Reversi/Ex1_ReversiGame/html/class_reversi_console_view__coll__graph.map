@@ -1,0 +1,5 @@
+<map id="ReversiConsoleView" name="ReversiConsoleView">
+<area shape="rect" id="Node000001" title="ReversiConsoleView Class provides a console view for the Reversi game." alt="" coords="5,352,161,507"/>
+<area shape="rect" id="Node000002" href="$class_reversi_board.html" title="ReversiBoard class implements the board for the Reversi game." alt="" coords="23,5,143,288"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,288,86,335,81,335,81,288"/>
+</map>

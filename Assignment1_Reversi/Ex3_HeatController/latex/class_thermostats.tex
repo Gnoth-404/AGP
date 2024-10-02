@@ -1,0 +1,142 @@
+\doxysection{Thermostats Class Reference}
+\hypertarget{class_thermostats}{}\label{class_thermostats}\index{Thermostats@{Thermostats}}
+
+
+The \doxylink{class_thermostats}{Thermostats} class integrates various components like temperature sensors, display, timer, \doxylink{class_bluetooth}{Bluetooth}, heat controller, buttons, and user interface to create a complete Heat Controller system.  
+
+
+
+
+{\ttfamily \#include $<$Thermostats.\+h$>$}
+
+
+
+Collaboration diagram for Thermostats\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_thermostats__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_thermostats_a39a1caa69471bdafaacf3a346e5887aa}{Thermostats}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_thermostats}{Thermostats} object. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_thermostats_a0454497bfa317bf54bd747abd7d71680}{\texorpdfstring{$\sim$}{\string~}\+Thermostats}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_thermostats}{Thermostats} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_thermostats_a53a44e6ff5182cab8879a90da5f0f078}{run}} ()
+\begin{DoxyCompactList}\small\item\em Main function to run the thermostat\textquotesingle{}s operations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_temperature_sensor}{Temperature\+Sensor}} \mbox{\hyperlink{class_thermostats_a47ec7efd0c4d9365bd58385ca2ed4a1c}{temp\+Sensor}}
+\begin{DoxyCompactList}\small\item\em Temperature sensor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_schedule_task}{Schedule\+Task}} \mbox{\hyperlink{class_thermostats_a9ee87213d43230aba4ed9fca81091742}{schedule\+Task}}
+\begin{DoxyCompactList}\small\item\em Schedule for scheduling thermostat temp. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_bluetooth}{Bluetooth}} \mbox{\hyperlink{class_thermostats_aecb8c3723d3cc7371260ddf98aaf46ed}{bluetooth}}
+\begin{DoxyCompactList}\small\item\em \doxylink{class_bluetooth}{Bluetooth} module(remote control) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_heat_controller}{Heat\+Controller}} \mbox{\hyperlink{class_thermostats_a3914f716c96e9ef6765bec81992339c1}{heat\+Controller}}
+\begin{DoxyCompactList}\small\item\em Heating controller. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user_interface}{User\+Interface}} \mbox{\hyperlink{class_thermostats_a96869d84e15136cf75a688d6d1ec9230}{user\+Interface}}
+\begin{DoxyCompactList}\small\item\em Interface for user input. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{class_thermostats}{Thermostats} class integrates various components like temperature sensors, display, timer, \doxylink{class_bluetooth}{Bluetooth}, heat controller, buttons, and user interface to create a complete Heat Controller system. 
+
+This class is responsible for controlling the interactions between different components to control the temperature effectively. It can control temperature adjustment,update display , and establish \doxylink{class_bluetooth}{Bluetooth} connectivity for remote control. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_thermostats_a39a1caa69471bdafaacf3a346e5887aa}\label{class_thermostats_a39a1caa69471bdafaacf3a346e5887aa} 
+\index{Thermostats@{Thermostats}!Thermostats@{Thermostats}}
+\index{Thermostats@{Thermostats}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{Thermostats()}{Thermostats()}}
+{\footnotesize\ttfamily Thermostats\+::\+Thermostats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_thermostats}{Thermostats} object. 
+
+Initializes all components required for the thermostat\textquotesingle{}s operation. \Hypertarget{class_thermostats_a0454497bfa317bf54bd747abd7d71680}\label{class_thermostats_a0454497bfa317bf54bd747abd7d71680} 
+\index{Thermostats@{Thermostats}!````~Thermostats@{\texorpdfstring{$\sim$}{\string~}Thermostats}}
+\index{````~Thermostats@{\texorpdfstring{$\sim$}{\string~}Thermostats}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Thermostats()}{\string~Thermostats()}}
+{\footnotesize\ttfamily Thermostats\+::\texorpdfstring{$\sim$}{\string~}\+Thermostats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxylink{class_thermostats}{Thermostats} object. 
+
+Responsible for clean-\/up and releasing resources. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_thermostats_a53a44e6ff5182cab8879a90da5f0f078}\label{class_thermostats_a53a44e6ff5182cab8879a90da5f0f078} 
+\index{Thermostats@{Thermostats}!run@{run}}
+\index{run@{run}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Thermostats\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function to run the thermostat\textquotesingle{}s operations. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_thermostats_aecb8c3723d3cc7371260ddf98aaf46ed}\label{class_thermostats_aecb8c3723d3cc7371260ddf98aaf46ed} 
+\index{Thermostats@{Thermostats}!bluetooth@{bluetooth}}
+\index{bluetooth@{bluetooth}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{bluetooth}{bluetooth}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_bluetooth}{Bluetooth}} Thermostats\+::bluetooth\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxylink{class_bluetooth}{Bluetooth} module(remote control) 
+
+\Hypertarget{class_thermostats_a3914f716c96e9ef6765bec81992339c1}\label{class_thermostats_a3914f716c96e9ef6765bec81992339c1} 
+\index{Thermostats@{Thermostats}!heatController@{heatController}}
+\index{heatController@{heatController}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{heatController}{heatController}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_heat_controller}{Heat\+Controller}} Thermostats\+::heat\+Controller\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Heating controller. 
+
+\Hypertarget{class_thermostats_a9ee87213d43230aba4ed9fca81091742}\label{class_thermostats_a9ee87213d43230aba4ed9fca81091742} 
+\index{Thermostats@{Thermostats}!scheduleTask@{scheduleTask}}
+\index{scheduleTask@{scheduleTask}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{scheduleTask}{scheduleTask}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_schedule_task}{Schedule\+Task}} Thermostats\+::schedule\+Task\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Schedule for scheduling thermostat temp. 
+
+\Hypertarget{class_thermostats_a47ec7efd0c4d9365bd58385ca2ed4a1c}\label{class_thermostats_a47ec7efd0c4d9365bd58385ca2ed4a1c} 
+\index{Thermostats@{Thermostats}!tempSensor@{tempSensor}}
+\index{tempSensor@{tempSensor}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{tempSensor}{tempSensor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_temperature_sensor}{Temperature\+Sensor}} Thermostats\+::temp\+Sensor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Temperature sensor. 
+
+\Hypertarget{class_thermostats_a96869d84e15136cf75a688d6d1ec9230}\label{class_thermostats_a96869d84e15136cf75a688d6d1ec9230} 
+\index{Thermostats@{Thermostats}!userInterface@{userInterface}}
+\index{userInterface@{userInterface}!Thermostats@{Thermostats}}
+\doxysubsubsection{\texorpdfstring{userInterface}{userInterface}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_user_interface}{User\+Interface}} Thermostats\+::user\+Interface\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Interface for user input. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_thermostats_8h}{Thermostats.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_thermostats_8cpp}{Thermostats.\+cpp}}\end{DoxyCompactItemize}

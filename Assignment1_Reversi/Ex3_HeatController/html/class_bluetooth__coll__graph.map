@@ -1,0 +1,5 @@
+<map id="Bluetooth" name="Bluetooth">
+<area shape="rect" id="Node000001" title="Manages Bluetooth communication for the thermostat." alt="" coords="5,267,165,443"/>
+<area shape="rect" id="Node000002" href="$class_schedule_task.html" title="Represents a temperature control schedule." alt="" coords="20,5,151,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,203,88,249,83,249,83,203"/>
+</map>

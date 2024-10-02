@@ -1,0 +1,148 @@
+\doxysection{Button Class Reference}
+\hypertarget{class_button}{}\label{class_button}\index{Button@{Button}}
+
+
+A class to represent and handle a button in Hardware API.  
+
+
+
+
+{\ttfamily \#include $<$Button.\+h$>$}
+
+
+
+Collaboration diagram for Button\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{class_button__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_button_a3b36df1ae23c58aedb9e15a713159459}{Button}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_button_a620636a7ceb997d5b8fccc95ef6aa246}{Button}} (int \mbox{\hyperlink{class_button_a865554067923011b7b24db0ea95c4104}{pin}})
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_button}{Button} object. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_button_a2a001eb9c3cc8ae54768a850dd345002}{\texorpdfstring{$\sim$}{\string~}\+Button}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_button}{Button} object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_button_a143f0a274b03d2bede8a84e37cd43dc7}{is\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the button is currently pressed. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_button_a0f2d3ae866531b3204290a66aa297c10}{is\+Double\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the button is double-\/pressed. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_button_a6e362bebd230faea26467fdba2cd555d}{is\+Long\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the button is being held for a longer duration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_button_a865554067923011b7b24db0ea95c4104}{pin}}
+\begin{DoxyCompactList}\small\item\em The GPIO input number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class to represent and handle a button in Hardware API. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_button_a3b36df1ae23c58aedb9e15a713159459}\label{class_button_a3b36df1ae23c58aedb9e15a713159459} 
+\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Button\+::\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+\Hypertarget{class_button_a620636a7ceb997d5b8fccc95ef6aa246}\label{class_button_a620636a7ceb997d5b8fccc95ef6aa246} 
+\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Button\+::\+Button (\begin{DoxyParamCaption}\item[{int}]{pin }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_button}{Button} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & The GPIO pin number to which the button is connected. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_button_a2a001eb9c3cc8ae54768a850dd345002}\label{class_button_a2a001eb9c3cc8ae54768a850dd345002} 
+\index{Button@{Button}!````~Button@{\texorpdfstring{$\sim$}{\string~}Button}}
+\index{````~Button@{\texorpdfstring{$\sim$}{\string~}Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Button()}{\string~Button()}}
+{\footnotesize\ttfamily Button\+::\texorpdfstring{$\sim$}{\string~}\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxylink{class_button}{Button} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_button_a0f2d3ae866531b3204290a66aa297c10}\label{class_button_a0f2d3ae866531b3204290a66aa297c10} 
+\index{Button@{Button}!isDoublePressed@{isDoublePressed}}
+\index{isDoublePressed@{isDoublePressed}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{isDoublePressed()}{isDoublePressed()}}
+{\footnotesize\ttfamily bool Button\+::is\+Double\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the button is double-\/pressed. 
+
+\begin{DoxyReturn}{Returns}
+true If the button is double-\/pressed. 
+
+false Otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_button_a6e362bebd230faea26467fdba2cd555d}\label{class_button_a6e362bebd230faea26467fdba2cd555d} 
+\index{Button@{Button}!isLongPressed@{isLongPressed}}
+\index{isLongPressed@{isLongPressed}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{isLongPressed()}{isLongPressed()}}
+{\footnotesize\ttfamily bool Button\+::is\+Long\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the button is being held for a longer duration. 
+
+\begin{DoxyReturn}{Returns}
+true If the button is long-\/pressed. 
+
+false Otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_button_a143f0a274b03d2bede8a84e37cd43dc7}\label{class_button_a143f0a274b03d2bede8a84e37cd43dc7} 
+\index{Button@{Button}!isPressed@{isPressed}}
+\index{isPressed@{isPressed}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{isPressed()}{isPressed()}}
+{\footnotesize\ttfamily bool Button\+::is\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the button is currently pressed. 
+
+\begin{DoxyReturn}{Returns}
+true If the button is pressed. 
+
+false Otherwise. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_button_a865554067923011b7b24db0ea95c4104}\label{class_button_a865554067923011b7b24db0ea95c4104} 
+\index{Button@{Button}!pin@{pin}}
+\index{pin@{pin}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{pin}{pin}}
+{\footnotesize\ttfamily int Button\+::pin\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The GPIO input number. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_button_8h}{Button.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_button_8cpp}{Button.\+cpp}}\end{DoxyCompactItemize}

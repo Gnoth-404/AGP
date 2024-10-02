@@ -1,0 +1,156 @@
+\doxysection{Schedule\+Task Class Reference}
+\hypertarget{class_schedule_task}{}\label{class_schedule_task}\index{ScheduleTask@{ScheduleTask}}
+
+
+Represents a temperature control schedule.  
+
+
+
+
+{\ttfamily \#include $<$Schedule\+Task.\+h$>$}
+
+
+
+Collaboration diagram for Schedule\+Task\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=178pt]{class_schedule_task__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_schedule_task_a8be215de49d39285bb54596be21595af}{Schedule\+Task}} ()
+\item 
+\mbox{\hyperlink{class_schedule_task_a5ddab2b8a940c3ce63a0f9c55a473523}{Schedule\+Task}} (int h, int m, float temp)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{class_schedule_task}{Schedule\+Task}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_schedule_task_acf99cda0198b42fb2540a853819755b2}{get\+Temperature}} () const
+\begin{DoxyCompactList}\small\item\em Gets the scheduled temperature. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_schedule_task_a961e6f8d6a1c2c4f0da302e84b6552fe}{is\+Scheduled\+Time}} (int h, int m) const
+\begin{DoxyCompactList}\small\item\em Checks if the schedule matches the given time. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_schedule_task_af2052670cd2f184b62f5cfe224ab80a7}{\texorpdfstring{$\sim$}{\string~}\+Schedule\+Task}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9}{hour}}
+\begin{DoxyCompactList}\small\item\em Hour of the day for the schedule (0-\/23). \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8}{minute}}
+\begin{DoxyCompactList}\small\item\em Minute of the hour for the schedule (0-\/59). \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c}{temperature}}
+\begin{DoxyCompactList}\small\item\em Desired temperature at this schedule time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a temperature control schedule. 
+
+This class manages a schedule that set the specific temperature at specific time of the day 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_schedule_task_a8be215de49d39285bb54596be21595af}\label{class_schedule_task_a8be215de49d39285bb54596be21595af} 
+\index{ScheduleTask@{ScheduleTask}!ScheduleTask@{ScheduleTask}}
+\index{ScheduleTask@{ScheduleTask}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{ScheduleTask()}{ScheduleTask()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Schedule\+Task\+::\+Schedule\+Task (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_schedule_task_a5ddab2b8a940c3ce63a0f9c55a473523}\label{class_schedule_task_a5ddab2b8a940c3ce63a0f9c55a473523} 
+\index{ScheduleTask@{ScheduleTask}!ScheduleTask@{ScheduleTask}}
+\index{ScheduleTask@{ScheduleTask}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{ScheduleTask()}{ScheduleTask()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Schedule\+Task\+::\+Schedule\+Task (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{m,  }\item[{float}]{temp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for \doxylink{class_schedule_task}{Schedule\+Task}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & The hour of the day for the schedule (0-\/23). \\
+\hline
+{\em m} & The minute of the hour for the schedule (0-\/59). \\
+\hline
+{\em temp} & The target temperature for the scheduled time. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_schedule_task_af2052670cd2f184b62f5cfe224ab80a7}\label{class_schedule_task_af2052670cd2f184b62f5cfe224ab80a7} 
+\index{ScheduleTask@{ScheduleTask}!````~ScheduleTask@{\texorpdfstring{$\sim$}{\string~}ScheduleTask}}
+\index{````~ScheduleTask@{\texorpdfstring{$\sim$}{\string~}ScheduleTask}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}ScheduleTask()}{\string~ScheduleTask()}}
+{\footnotesize\ttfamily Schedule\+Task\+::\texorpdfstring{$\sim$}{\string~}\+Schedule\+Task (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_schedule_task_acf99cda0198b42fb2540a853819755b2}\label{class_schedule_task_acf99cda0198b42fb2540a853819755b2} 
+\index{ScheduleTask@{ScheduleTask}!getTemperature@{getTemperature}}
+\index{getTemperature@{getTemperature}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{getTemperature()}{getTemperature()}}
+{\footnotesize\ttfamily float Schedule\+Task\+::get\+Temperature (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the scheduled temperature. 
+
+\begin{DoxyReturn}{Returns}
+The scheduled temperature. 
+\end{DoxyReturn}
+\Hypertarget{class_schedule_task_a961e6f8d6a1c2c4f0da302e84b6552fe}\label{class_schedule_task_a961e6f8d6a1c2c4f0da302e84b6552fe} 
+\index{ScheduleTask@{ScheduleTask}!isScheduledTime@{isScheduledTime}}
+\index{isScheduledTime@{isScheduledTime}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{isScheduledTime()}{isScheduledTime()}}
+{\footnotesize\ttfamily bool Schedule\+Task\+::is\+Scheduled\+Time (\begin{DoxyParamCaption}\item[{int}]{h,  }\item[{int}]{m }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Checks if the schedule matches the given time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & The hour of the day (0-\/23). \\
+\hline
+{\em m} & The minute of the hour (0-\/59). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the schedule matches the given time, false otherwise. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9}\label{class_schedule_task_ae2cbf910dcbcfdeb018abd61f3340ae9} 
+\index{ScheduleTask@{ScheduleTask}!hour@{hour}}
+\index{hour@{hour}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{hour}{hour}}
+{\footnotesize\ttfamily int Schedule\+Task\+::hour\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Hour of the day for the schedule (0-\/23). 
+
+\Hypertarget{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8}\label{class_schedule_task_a5d142a3cec6311c36f4ebccbe4ddead8} 
+\index{ScheduleTask@{ScheduleTask}!minute@{minute}}
+\index{minute@{minute}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{minute}{minute}}
+{\footnotesize\ttfamily int Schedule\+Task\+::minute\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Minute of the hour for the schedule (0-\/59). 
+
+\Hypertarget{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c}\label{class_schedule_task_a9361f4e95332a7c3dbd73ae118a4455c} 
+\index{ScheduleTask@{ScheduleTask}!temperature@{temperature}}
+\index{temperature@{temperature}!ScheduleTask@{ScheduleTask}}
+\doxysubsubsection{\texorpdfstring{temperature}{temperature}}
+{\footnotesize\ttfamily float Schedule\+Task\+::temperature\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Desired temperature at this schedule time. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_schedule_task_8h}{Schedule\+Task.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_8cpp}{.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,33 @@
+\doxysection{Temperature\+Sensor.\+h}
+\hypertarget{_temperature_sensor_8h_source}{}\label{_temperature_sensor_8h_source}\index{myCode/TemperatureSensor.h@{myCode/TemperatureSensor.h}}
+\mbox{\hyperlink{_temperature_sensor_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ TemperatureSensor.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ Nov\ 15,\ 2023}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ tiena}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ TEMPERATURESENSOR\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ TEMPERATURESENSOR\_H\_}}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_temperature_sensor}{TemperatureSensor}}}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_temperature_sensor_a9de919336d0a1c5ca85eea424019a93b}{sensorPin}};\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_temperature_sensor_a0fd06ad922e1c06706d12591037f6199}{datasheetTemp}};\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_temperature_sensor_a2f8ba8784c8e8aebd3f88c402fb8319b}{TemperatureSensor}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{class_temperature_sensor_a0eefd1237cfecb6ad995c007fcd17f52}{TemperatureSensor}}(\textcolor{keywordtype}{int}\&\ pin,\ \textcolor{keywordtype}{float}\&\ temp);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_temperature_sensor_a13158e376619b9fcd2bd2e49d45d6e6b}{getTemperture}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_temperature_sensor_a3eaa2a82be4027919b3ab8b4b3422006}{convertToCelsius}}(\textcolor{keywordtype}{float}\ temp)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_temperature_sensor_a0ce9a1e97a7e4f9d7721feedba47f3c1}{convertToFahrenheit}}(\textcolor{keywordtype}{float}\ temp)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_temperature_sensor_a4ee390badd77fa6c7ce46dc788f3d5c6}{\string~TemperatureSensor}}();}
+\DoxyCodeLine{00060\ \};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ TEMPERATURESENSOR\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
